@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div style={{ textAlign: "center", padding: "40px 20px" }}>
       <h1 style={{ fontSize: "3rem", color: "#4da6ff" }}>
-        Soluciones de Streaming con PRIMORDIAL
+        Soluciones de Gestion de Cuentas con PRIMORDIAL
       </h1>
       <p style={{ maxWidth: "600px", margin: "20px auto", color: "#ccc" }}>
         Ofrecemos servicios personalizados de gestión y provisión de cuentas de streaming.
