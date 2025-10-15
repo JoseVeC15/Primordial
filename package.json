@@ -1,18 +1,30 @@
 {
+  "name": "primordial",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev -p 3000",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "cloudinary": "^2.5.0",
     "next": "15.0.0",
+    "pg": "^8.11.5",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@types/node": "^24.7.2",
-    "@types/react": "^19.2.2",
-    "typescript": "^5.9.3"
-  }
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.11.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "typescript": "^5.6.3",
+    "@types/react": "^18.3.5",
+    "@types/node": "^22.5.4"
+  },
+  "engines": { "node": ">=18.18.0" }
 }
