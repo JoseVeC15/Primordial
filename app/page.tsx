@@ -11,7 +11,7 @@ export default function Home() {
         Soluciones de Gestion de Cuentas con PRIMORDIAL
       </h1>
       <p style={{ maxWidth: "600px", margin: "20px auto", color: "#ccc" }}>
-        Ofrecemos servicios personalizados de gestión y provisión de cuentas de streaming.
+        Ofrecemos servicios personalizados de gestión y provisión de cuentas.
         Vos elegís los planes, nosotros nos encargamos de la administración.
       </p>
 
